@@ -16,6 +16,7 @@ public class Main extends Application {
 			root.getChildren().add(new Label("Glenn's Label"));
 			root.getChildren().add(new Label("Glenn 2nd Branch"));
 			root.getChildren().add(new Label("Omar's Branch"));
+			root.getChildren().add(new Label("Glenn"));
 			Scene scene = new Scene(root,400,400);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Omar's Project");
